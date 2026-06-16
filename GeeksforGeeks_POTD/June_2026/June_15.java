@@ -2,7 +2,9 @@ package GeeksforGeeks_POTD.June_2026;
 
 /*
 Maintain a array dp for storing minimum cost for weights lesser than w--use previous calculated cost to evsluate next dp element
-To control -1 for no packet make it's cost very big(out of output from constraint), so that using this min price will bevery high(if this will be output , output -1)
+To control -1 for no packet make it's cost very big(out of output from constraint), so that using this min price will bevery high(if this will be output , output -1
+
+TC - O(w^2), SC - O(w)
 */
 
 import java.util.Arrays;
