@@ -2,6 +2,8 @@
 We first sorted array in ascending order
 Then traverse in increasing order to keep check tiil this number maximumLength with help of storing length with numbers appeared in dictionary(It also helped in checking if sqrt appeared or not)
 Also special check on 1 in starting as its sqrt is not less than itself
+
+TC - O(nlogn), SC - O(n)
 """
 
 class Solution:

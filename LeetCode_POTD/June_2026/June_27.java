@@ -4,6 +4,8 @@ package Leetcode_POTD.June_2026;
 We first sorted array in ascending order
 Then traverse in increasing order to keep check tiil this number maximumLength with help of storing length with numbers appeared in HashMap(It also helped in checking if sqrt appeared or not)
 Also special check on 1 in starting as its sqrt is not less than itself
+
+TC - O(nlogn), SC - O(n)
 */
 
 public June_27 {
