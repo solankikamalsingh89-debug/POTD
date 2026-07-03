@@ -1,6 +1,8 @@
 """
 FIrst we created a queue with all theives and then iterate with BFS of multiple sources increasing 1 distance from previous and marking it in grid(Representing max minimum distance from theives)
 Now as we have grid showing distance - Iterate from (0,0) to others keeping maximum distance iteration first
+
+TC - O(n^2*log(n^2)){As used priority queue}, SC - O(n^2)
 """
 
 DIR4 = [(0, 1), (0, -1), (1, 0), (-1, 0)]
