@@ -2,7 +2,7 @@
 For sum we precomputef prefix sum so that sum can be calculate O(1) per query
 And one array/list is maintained for how many non-zero element has occured so that for getting number after MOD as -> Number(r)-Number(l)*(10^(number of digits appeared after it))
 
-TC - O(n+m), SC - O(n+m)
+TC - O(n+m), SC - O(n)
 """
 
 class Solution:
