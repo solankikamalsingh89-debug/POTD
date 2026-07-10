@@ -1,5 +1,7 @@
 """
+Whenever becomes equal take the maximum previous to it and then check for furhter-- Making partition by equal elements and choosing larger sum of part
 
+TC - O(n), SC - O(1)
 """
 
 class Solution:
